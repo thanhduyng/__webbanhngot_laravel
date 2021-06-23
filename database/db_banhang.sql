@@ -273,8 +273,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `full_name`, `email`, `password`, `phone`, `quyen`, `address`, `remember_token`, `created_at`, `updated_at`) VALUES
-(6, 'Vũ Công Thành', 'vucongthanh92@gmail.com', '$2y$10$ljqQb8isgaYtcBIcqzq1S.Kh6tU63aJII.WTbRw8o1hQxAthhy2jq', '0981643135', 1, 'Hoàng Diệu 2', 'RIPss7pObTlXtShZnp9buzcElTtL8ViWlV2Ccf19QbNsumyE1vY7gqrZBAmr', '2017-03-23 07:17:33', '2017-03-23 07:17:33'),
-(7, 'Vũ Công Tuyền', 'tholambanhmy@gmail.com', '$2y$10$0pUf3ZCY88X18xuu85op8.HqI4dZAmigb9siuh2T31Vwa66Wqn5fa', '123456789', 0, 'Bình Dương', NULL, '2017-07-03 15:25:01', '2017-07-03 15:25:01');
+(6, 'admin', 'admin123@gmail.com', '$2y$10$B9Cq2MMkeFAc70HJDwrJ7.TYp78y8nrOxFHBIq.U90DPIvX8AlMKS', '0981643135', 1, 'Hoàng Diệu 2', 'RIPss7pObTlXtShZnp9buzcElTtL8ViWlV2Ccf19QbNsumyE1vY7gqrZBAmr', '2017-03-23 07:17:33', '2017-03-23 07:17:33'),
+(7, 'admin2', 'tholambanhmy@gmail.com', '$2y$10$B9Cq2MMkeFAc70HJDwrJ7.TYp78y8nrOxFHBIq.U90DPIvX8AlMKS', '123456789', 0, 'Bình Dương', NULL, '2017-07-03 15:25:01', '2017-07-03 15:25:01');
 
 --
 -- Indexes for dumped tables
